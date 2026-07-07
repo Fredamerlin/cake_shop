@@ -1,0 +1,145 @@
+body{
+    background-color: rgb(44, 41, 41);
+    margin: 0;
+}
+
+/* HEADER */
+header{
+    width: 100%;
+    background-color: #DAA520;
+    height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.head img{
+    width: 80px;
+    height: 80px;
+    object-fit: contain;
+    border-radius: 50px;
+}
+
+header h1{
+    text-align: center;
+    color: black;
+}
+
+
+.products h2 {
+   text-align: center;
+   margin: 20px 0;
+   color: #DAA520;
+}
+
+.product-container {
+   display: flex;
+   justify-content: center;
+   gap: 20px;
+   flex-wrap: wrap;
+}
+
+.card {
+   width: 220px;
+   background: #fff;
+   border-radius: 15px;
+   padding: 10px;
+   text-align: center;
+   box-shadow: 0 0 10px rgba(0,0,0,0.2);
+}
+
+.card img {
+   width: 100%;
+   border-radius: 10px;
+}
+
+.card button {
+   background: goldenrod;
+   color: black;
+   border: none;
+   padding: 8px 12px;
+   border-radius: 8px;
+   cursor: pointer;
+}
+
+footer{
+  background-color:goldenrod;
+  color: black;
+  text-align: center;
+  padding: 30px 15px;
+  margin-top: 30px;
+}
+
+
+.footer-section h4{
+  margin-bottom: 5px;
+}
+
+
+
+.footer-links a:hover{
+  text-decoration: underline;
+}
+
+.copy{
+  font-size: 14px;
+  margin-top: 15px;
+}
+.cart-page{
+    width:80%;
+    margin:40px auto;
+    background:white;
+    padding:20px;
+    border-radius:10px;
+}
+
+.cart-page table{
+    width:100%;
+    border-collapse:collapse;
+}
+
+.cart-page th{
+    background:goldenrod;
+    color:black;
+    padding:12px;
+}
+
+.cart-page td{
+    border:1px solid #ddd;
+    padding:10px;
+    text-align:center;
+}
+
+.cart-page button{
+    background:red;
+    color:white;
+    border:none;
+    padding:8px 12px;
+    cursor:pointer;
+    border-radius:5px;
+}
+
+.checkout-btn{
+    margin-top:20px;
+    background:green !important;
+    color:white;
+    padding:12px 25px;
+    font-size:18px;
+}
+#count{
+    background-color: black;
+    
+    color: goldenrod;
+}
+#fre{
+    background-color: black;
+    color:goldenrod;
+    border-radius: 5px;
+
+}
+#mer{
+    background-color: black;
+    color: goldenrod;
+    border-radius: 5px;
+}
